@@ -3,10 +3,66 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ChUr"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="#33CC33"/>
 
-    <TextView
+    <Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/Math"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/Math" />
+        
+    <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/Hist"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/History" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Languages"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/Languages" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/English"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/English" />
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Science"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/Science" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Bug"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/Bug" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Donate"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/Donate" />
+    
+    
 
 </LinearLayout>
